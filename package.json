@@ -6,6 +6,8 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
+    "storybook:start": "cd apps/storybook && npm run storybook",
+    "storybook:build": "cd apps/storybook && npm run build:storybook",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
